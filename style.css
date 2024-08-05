@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#timer, #message {
+    font-size: 24px;
+    margin-top: 20px;
+}
+#drawingArea {
+    width: 800px; /* Adjust as needed */
+    height: 600px; /* Adjust as needed */
+    border: 1px solid #000;
+}
